@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #db7093;
+}
+
+.return {
+  left: 0;
+  top: 0;
+  list-style: none;
+}
+.container {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 58%;
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  border-color: blanchedalmond (63, 2, 2);
+  background-image: url("./assets/images/backgrounds/background3.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex;
+}
+
+.title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: blanchedalmond;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  text-align: center;
+  color: blanchedalmond;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #c71585;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #db7093;
+}
